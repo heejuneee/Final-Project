@@ -1,2 +1,0 @@
-# SYT
-Show your talent
