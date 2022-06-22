@@ -1,0 +1,183 @@
+
+
+{% block content %}
+
+
+
+
+<link rel="stylesheet" href="/bootstrap.min.css">
+<link rel="stylesheet" href="/swiper.min.css">
+<link rel="stylesheet" href="/common_pc.css">
+
+
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+
+
+<meta property="og:title" content="SYT - 아티스트의 포트폴리오 저장소"/>
+<meta property="og:type" content="website"/>
+
+<title>SYT - 온라인 오디션플랫폼</title>
+
+
+<meta name="viewport" content="width=1200">
+
+<link rel="icon" type="image/png" href="https://static.talented.co.kr/t_img/service_img/img/favicon.ico"/>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/swiper.min.css">
+<link rel="stylesheet" href="css/common_pc.css">
+
+
+
+</head>
+
+
+
+<body>
+<div id="wrap">
+	
+
+<header id="hd">
+	<div class="container">
+		<h1 class="text-hide"><a href="/layout"><img src="https://static.talented.co.kr/t_img/service_img/img_pc/symbol.png" width="54" alt="talented"></a></h1>
+		<nav id="gnb" style="min-width:600px;">
+			<a href="/layout" class="active">투데이</a>
+			<a href="/layout">검색</a>
+			<a href="/outauca">외부오디션<img src="https://static.talented.co.kr/t_img/service_img/img_pc/icon/new_mark.png" style="position: absolute;top: 20px;height: 20px;"></a>
+			<a href="/auca">오.캐</a>
+			
+			
+			
+            <a href="https://clever-flan-1da90c.netlify.app">AI얼굴인식</a>
+			
+			
+		</nav>
+		<div class="hd-right">
+			<a href="/Newlogin" class="btn-portfolio">포트폴리오 만들기</a>
+			<a href="/noinfo" class="btn-alarm"><i class="icon-alarm">알람</i><span class="num noti_count"></span></a>
+			<a href="/Newlogin" class="btn-alarm"><i class="icon-message">메시지</i><span class="num message_count"></span></a>
+			
+			
+			
+				<a href="/mypage">
+					<img src="https://static.talented.co.kr/t_img/service_img/myinfo_button2.png" class="hd-profile" alt="">
+				</a>
+			
+			
+			
+			
+		</div>
+	</div>
+</header>
+
+
+
+	
+	
+	
+<div id="ct">
+<!-- 페이지 시작 -->
+<div class="summary-header">
+	
+    <!-- 비로그인 -->
+    <div class="container container-sm">
+        <div class="d-flex-space">
+            <div class="media media-profile md">
+                <img src="https://static.talented.co.kr/t_img/service_img/myinfo_button2.png" alt="">
+                <div class="media-body">
+                    <a href="/Newlogin" class="text-primary">로그인 . 회원가입 <i class="icon-arrow"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="desc-group row">
+            <dl class="col-4">
+                <dt>새 알림</dt>
+                <dd>0</dd>
+            </dl>
+            <dl class="col-4">
+                <dt>새 메시지</dt>
+                <dd>0</dd>
+            </dl>
+            <dl class="col-4">
+                <dt>지원한 오디션</dt>
+                <dd>0</dd>
+            </dl>
+        </div>
+    </div>
+
+
+
+        
+</div>
+
+
+
+
+<div class="container container-sm">
+<div class="link-group">
+    <div class="row">
+        <section class="sect">
+            <h2 class="sect-grey-title">계정 관리</h2>
+            <ul class="list-group list-group-arrow">
+                <li>
+                    
+                        <a href="/mypage" onclick="" class="list-group-item" data-toggle="modal">
+                    
+                    
+                                            
+                        개인 정보 &nbsp; &nbsp;&nbsp;
+                        </a>
+                </li>
+                <li>
+                    
+                    
+                        <a href="/mypage" onclick="" class="list-group-item" data-toggle="modal">
+                    
+                    
+                                            
+                        팔로워 관리 &nbsp;
+                        </a>
+                </li>
+                <li>
+                    
+                    
+                        <a href="/mypage" onclick="" class="list-group-item" data-toggle="modal">
+                    
+                    
+                                            
+                        좋아요 목록 &nbsp;
+                        </a>
+                </li>					
+                
+            </ul>
+        </section>
+        <section class="sect">
+            <h2 class="sect-grey-title">구인 관리</h2>
+            <ul class="list-group list-group-arrow">
+                <li><a href="/mypage" class="list-group-item">오디션 등록하기 &nbsp &nbsp &nbsp&nbsp</a></li>
+                <li><a href="/mypage" class="list-group-item">공고 및 지원자 관리 &nbsp</a></li>
+            </ul>
+        </section>
+        <section class="sect">
+            <h2 class="sect-grey-title">SYT 지원센터</h2>
+            <ul class="list-group list-group-arrow">
+                <li><a href="/mypageinfo" class="list-group-item">공지사항 &nbsp</a></li>
+                <li><a href="mailto:ask@vwxlabs.com" class="list-group-item">1:1문의 &nbsp &nbsp&nbsp</a></li>
+            </ul>
+        </section>
+    </div>
+</div>
+</div>
+<!-- //페이지 끝-->
+
+
+</body>
+</html>
+
+
+
+
+        
+ 
+{% endblock %}
