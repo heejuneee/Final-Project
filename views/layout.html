@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>{{title}}</title>
+	<link rel="icon" type="image/png" href="https://static.talented.co.kr/t_img/service_img/img/favicon.ico"/>
+    <link rel="stylesheet" href="/bootstrap.min.css">
+	<link rel="stylesheet" href="/swiper.min.css">
+	<link rel="stylesheet" href="/common_pc.css">
+  </head>
+  <body>
+   
+   
+          {% if user and user.id %}
+		  <div id="wrap">
+	
+
+			<header id="hd">
+				<div class="container">
+					<h1 class="text-hide"><a href="/layout"><img src="https://static.talented.co.kr/t_img/service_img/img_pc/symbol.png" width="54" alt="talented"></a></h1>
+					<nav id="gnb" style="min-width:600px;">
+						<a href="/layout" class="active">투데이</a>
+						<a href="/search">검색</a>
+						<a href="/outauca">외부오디션<img src="https://static.talented.co.kr/t_img/service_img/img_pc/icon/new_mark.png" style="position: absolute;top: 20px;height: 20px;"></a>
+						<a href="/auca">오.캐</a>
+						
+						
+						
+						<a href="https://clever-flan-1da90c.netlify.app">AI얼굴인식</a>
+						
+						
+					</nav>
+					<div class="hd-right">
+						<a href="/portfolio" class="btn-portfolio">포트폴리오 만들기</a>
+						<a href="/noinfo" class="btn-alarm"><i class="icon-alarm">알람</i><span class="num noti_count"></span></a>
+						<a href="/gtm" class="btn-alarm"><a href="https://talented.co.kr/aucaDetail?c=2093"></a><i class="icon-message">메시지</i><span class="num message_count"></span></a>
+						
+						
+						
+							<a href="/mypage">
+								<img src="https://static.talented.co.kr/t_img/service_img/myinfo_button2.png" class="hd-profile" alt="">
+							</a>
+						
+						
+						
+						
+					</div>
+				</div>
+			</header>
+			
+			
+			
+				
+				
+				
+			<div id="ct">
+			<!-- 페이지 시작 -->
+			<div class="summary-header">
+				
+				<!-- 비로그인 -->
+				<div class="container container-sm">
+					<div class="d-flex-space">
+						<div class="media media-profile md">
+							
+							
+								<div class="media-body">{{'안녕하세요! ' + user.nick + '님'}}</div>
+    
+								
+								
+								
+							  <a id="logout" href="/auth/logout" class="btn">로그아웃</a>
+							
+						</div>
+					</div>
+					<div class="desc-group row">
+						<dl class="col-4">
+							<dt>새 알림</dt>
+							<dd>0</dd>
+						</dl>
+						<dl class="col-4">
+							<dt>새 메시지</dt>
+							<dd>0</dd>
+						</dl>
+						<dl class="col-4">
+							<dt>지원한 오디션</dt>
+							<dd>0</dd>
+						</dl>
+					</div>
+				</div>
+			
+			
+			
+					
+			</div>
+			
+			
+			
+			
+			<div class="container container-sm">
+			<div class="link-group">
+				<div class="row">
+					<section class="sect">
+						<h2 class="sect-grey-title">계정 관리</h2>
+						<ul class="list-group list-group-arrow">
+							<li>
+								
+									<a href="/pinfo" onclick="" class="list-group-item" data-toggle="modal">
+								
+								
+														
+									개인 정보 &nbsp; &nbsp;&nbsp
+									</a>
+							</li>
+							<li>
+								
+								
+									<a href="/fallow" onclick="" class="list-group-item" data-toggle="modal">
+								
+								
+														
+									팔로워 관리 &nbsp;
+									</a>
+							</li>
+							<li>
+								
+								
+									<a href="/like" onclick="" class="list-group-item" data-toggle="modal">
+								
+								
+														
+									좋아요 목록 &nbsp;
+									</a>
+							</li>					
+							
+						</ul>
+					</section>
+					<section class="sect">
+						<h2 class="sect-grey-title">구인 관리</h2>
+						<ul class="list-group list-group-arrow">
+							<li><a href="/mypageau" class="list-group-item">오디션 등록하기&nbsp &nbsp &nbsp&nbsp</a></li>
+							<li><a href="/mypagema" class="list-group-item">공고 및 지원자 관리 &nbsp</a></li>
+						</ul>
+					</section>
+					<section class="sect">
+						<h2 class="sect-grey-title">SYT 지원센터</h2>
+						<ul class="list-group list-group-arrow">
+							<li><a href="/mypageinfo" class="list-group-item">공지사항 &nbsp</a></li>
+							<li><a href="mailto:ask@vwxlabs.com" class="list-group-item">1:1문의 &nbsp &nbsp&nbsp</a></li>
+						</ul>
+					</section>
+				</div>
+			</div>
+			</div>
+			<!-- //페이지 끝-->
+			
+			
+			</body>
+			</html>
+			
+			
+         
+
+        
+           
+
+        {% else %}
+        
+        
+		<!-- <link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/swiper.min.css">
+		<link rel="stylesheet" href="css/common_pc.css"> -->
+        
+		<div id="wrap">
+	
+
+			<header id="hd">
+				<div class="container">
+					<h1 class="text-hide"><a href="/layout"><img src="https://static.talented.co.kr/t_img/service_img/img_pc/symbol.png" width="54" alt="talented"></a></h1>
+					<nav id="gnb" style="min-width:600px;">
+						<a href="/layout" class="active">투데이</a>
+						<a href="/search">검색</a>
+						<a href="/outauca">외부오디션<img src="https://static.talented.co.kr/t_img/service_img/img_pc/icon/new_mark.png" style="position: absolute;top: 20px;height: 20px;"></a>
+						<a href="/auca">오.캐</a>
+						
+						
+						
+						<a href="https://clever-flan-1da90c.netlify.app">AI얼굴인식</a>
+						
+						
+					</nav>
+					<div class="hd-right">
+						<a href="/Newlogin" class="btn-portfolio">포트폴리오 만들기</a>
+						<a href="/noinfo" class="btn-alarm"><i class="icon-alarm">알람</i><span class="num noti_count"></span></a>
+						<a href="https://moonlit-hamster-96ef19.netlify.app" class="btn-alarm"><i class="icon-message">메시지</i><span class="num message_count"></span></a>
+						
+						
+						
+						
+							<a href="/mypage">
+								<img src="https://static.talented.co.kr/t_img/service_img/myinfo_button2.png" class="hd-profile" alt="">
+							</a>
+					</div>
+				</div>
+			</header>
+				
+			<div id="ct">
+			<!-- 페이지 시작 -->
+
+			<div class="container2">
+				
+							<div class="main-visual swiper-container">
+								
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<a href="https://talented.co.kr/aucaDetail?c=2093" class="main-banner-link">
+											<picture>
+											<source srcset="https://static.talented.co.kr/t_img/banner/main/event/ad1cb3a6-418b-44f5-824d-9cfe6be95fa1.jpeg?w=1611&f=webp" type="image/webp">
+											<img src="https://static.talented.co.kr/t_img/banner/main/event/ad1cb3a6-418b-44f5-824d-9cfe6be95fa1.jpeg?w=1611" alt="">
+											</picture>
+										</a>				
+									</div>
+								
+									<div class="swiper-slide">
+										<a href="https://talented.co.kr/aucaDetail?c=2958" class="main-banner-link">
+											<picture>
+											<source srcset="https://static.talented.co.kr/t_img/banner/main/event/99612804-2447-487a-8c50-75d28ed5b45c.jpeg?w=1611&f=webp" type="image/webp">
+											<img src="https://static.talented.co.kr/t_img/banner/main/event/99612804-2447-487a-8c50-75d28ed5b45c.jpeg?w=1611" alt="">
+											</picture>
+										</a>				
+									</div>
+								
+									<div class="swiper-slide">
+										<a href="https://talented.co.kr/aucaDetail?c=2939" class="main-banner-link">
+											<picture>
+											<source srcset="https://static.talented.co.kr/t_img/banner/main/event/914e7329-b352-4b44-b76e-b11d4aa3407d.jpeg?w=1611&f=webp" type="image/webp">
+											<img src="https://static.talented.co.kr/t_img/banner/main/event/914e7329-b352-4b44-b76e-b11d4aa3407d.jpeg?w=1611" alt="">
+											</picture>
+										</a>				
+									</div>
+								
+									<div class="swiper-slide">
+										<a href="https://talented.co.kr/pc_aucaDetail?c=3025" class="main-banner-link">
+											<picture>
+											<source srcset="https://static.talented.co.kr/t_img/banner/main/event/072ab4c1-9acf-4e25-b3f5-89548510b166.jpeg?w=1611&f=webp" type="image/webp">
+											<img src="https://static.talented.co.kr/t_img/banner/main/event/072ab4c1-9acf-4e25-b3f5-89548510b166.jpeg?w=1611" alt="">
+											</picture>
+										</a>				
+									</div>
+								
+							</div>
+							<div class="swiper-pagination"></div>
+							<div class="swiper-button-prev"></div>
+							<div class="swiper-button-next"></div>
+						</div>
+					
+				
+				<section class="sect" style="margin-top:0;">
+					<h2 class="sect-title">SYT 픽</h2>
+					<div class="position-relative">
+						<div class="today-update swiper-container">
+							<ul class="swiper-wrapper">
+								
+								<li class="swiper-slide">
+									<div class="card card-thumb">
+										<div class="card-img-top">
+											<a href="/pc_portfolio?c=22524">
+												<picture>
+												<source srcset="https://static.talented.co.kr/user_data/jhelene25/title_image_area/4f01e291-2366-42cb-bb01-1f23eb2e010d.jpeg?w=300&h=300&f=webp" type="image/webp">
+												<img src="https://static.talented.co.kr/user_data/jhelene25/title_image_area/4f01e291-2366-42cb-bb01-1f23eb2e010d.jpeg?w=300&h=300" class="card-image" alt="">
+												</picture>
+												<div class="image_overlay_style"></div>
+											</a>
+											<!-- <button onclick="likeAction('22524');" type="button" class="icon-like">좋아요</button> -->
+										</div>
+										<div class="card-body2">
+											<a href="/pc_portfolio?c=22524"><strong class="card-title">안녕하세요 신지안입니다.</strong></a>
+											<a href="/pc_channel?c=jhelene25" class="media media-profile">
+												
+												
+													<picture class="media media-profile">
+													<source srcset="https://static.talented.co.kr/user_data/jhelene25/profile_image/98e109cd-5f8b-4a72-ade6-680f971a6370.jpeg?w=40&h=40&f=webp" type="image/webp">
+													<img src="https://static.talented.co.kr/user_data/jhelene25/profile_image/98e109cd-5f8b-4a72-ade6-680f971a6370.jpeg?w=40&h=40"/>
+													</picture>
+												
+												
+												
+												<div class="media-body">신지안</div>
+											</a>
+										</div>
+									</div>
+								</li>
+<!-- 								
+								<li class="swiper-slide">
+									<div class="card-thumb">
+										<div class="card-img-top">
+											<a href="/pc_portfolio?c=16987">
+												<picture>
+												<source srcset="https://static.talented.co.kr/user_data/bkpark96/title_image_area/7cf379ca-ab26-4a61-8a9f-f66edda914a7.jpeg?w=300&h=300&f=webp" type="image/webp">
+												<img src="https://static.talented.co.kr/user_data/bkpark96/title_image_area/7cf379ca-ab26-4a61-8a9f-f66edda914a7.jpeg?w=300&h=300" class="card-image" alt="">
+												</picture>
+												<div class="image_overlay_style"></div>
+											</a> 
+										-->
+												
+												
+												
+												
+												
+												<div class="media-body">박병관</div>
+											</a>
+										</div>
+									</div>
+								</li>
+
+								<li class="swiper-slide">
+									<div class="card card-thumb">
+										<div class="card-img-top2">
+											<a href="/pc_portfolio?c=38842">
+												<picture>
+												<source srcset="https://static.talented.co.kr/user_data/audwp09/title_image_area/3cf8cc65-f7ad-493d-9b47-25ea8df05803.jpeg?w=300&h=300&f=webp" type="image/webp">
+												<img src="https://static.talented.co.kr/user_data/audwp09/title_image_area/3cf8cc65-f7ad-493d-9b47-25ea8df05803.jpeg?w=300&h=300" class="card-image" alt="">
+												</picture>
+												<div class="image_overlay_style"></div>
+											</a>
+											<!-- <button onclick="likeAction('38842');" type="button" class="icon-like">좋아요</button> -->
+										</div>
+										<div class="card-body3">
+											<a href="/pc_portfolio?c=38842"><strong class="card-title">95년생 기명제</strong></a>
+											<a href="/pc_channel?c=audwp09" class="media media-profile"></a>
+												
+												
+													<picture class="media media-profile">
+													<source srcset="https://static.talented.co.kr/user_data/audwp09/profile_image/e9e0556b-f7f9-4981-a87a-9609658b93d9.jpeg?w=40&h=40&f=webp" type="image/webp">
+													<img src="https://static.talented.co.kr/user_data/audwp09/profile_image/e9e0556b-f7f9-4981-a87a-9609658b93d9.jpeg?w=40&h=40"/>
+													</picture>
+												
+												
+												
+												<div class="media-body2">기명제</div>
+											</a>
+										</div>
+									</div>
+								</li>
+								
+					
+												
+												
+								
+								
+								        
+        {% endif %}
+        </div>
+      </div>
+      {% block content %}
+      {% endblock %}
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+    
+      window.onload = () => {
+        if (new URL(location.href).searchParams.get('loginError')) {
+          alert(new URL(location.href).searchParams.get('loginError'));
+        }
+      };
+    </script>
+    {% block script %}
+    {% endblock %}
+  </body>
+</html>
