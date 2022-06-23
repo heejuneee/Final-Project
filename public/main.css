@@ -244,7 +244,7 @@ input[type='text'], input[type='email'], input[type='password'], textarea {
 }
 
 
-.user-name { position:absolute; font-weight: bold; font-size: 18px; right: 10.5%; bottom: 94.8%;}
+/* .user-name { position:absolute; font-weight: bold; font-size: 18px; right: 10.5%; bottom: 94.8%;}
 .user-name2{ position:absolute; font-weight: bold; font-size: 18px; right: 20.5%; bottom: 100%;}
 .count { font-weight: bold; color: crimson; font-size: 18px; }
 .timeline {
@@ -954,4 +954,4 @@ height: 200px;
   width: 360px;
   height: 235px;
 }
-
+ */
