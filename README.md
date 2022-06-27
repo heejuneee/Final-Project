@@ -13,6 +13,15 @@ Show your talent
 ## 주요내용
 <img width="459" alt="스크린샷 2022-06-27 오후 11 52 44" src="https://user-images.githubusercontent.com/107246410/175970429-015f66c8-a4f2-4c8e-b346-a69630fdddb3.png">
 
+##DB테이블 설계
+
+<img width="428" alt="스크린샷 2022-06-27 오후 11 55 54" src="https://user-images.githubusercontent.com/107246410/175970952-805f8d27-7960-42d3-abd5-35674ef398d7.png">
+
+<img width="429" alt="스크린샷 2022-06-27 오후 11 56 44" src="https://user-images.githubusercontent.com/107246410/175971079-115415ba-6abe-4de0-aed7-9f4f3047327f.png">
+
+<img width="427" alt="스크린샷 2022-06-27 오후 11 57 37" src="https://user-images.githubusercontent.com/107246410/175971217-73de8043-6ec6-49a2-bcfc-1e37579eccd7.png">
+
+
 
 
 ## 실행화면
