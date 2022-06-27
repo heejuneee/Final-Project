@@ -10,6 +10,10 @@ Show your talent
 ## Skills
 > Nodejs , Javascript , HTML CSS , Mysql
 
+## 주요내용
+<img width="459" alt="스크린샷 2022-06-27 오후 11 52 44" src="https://user-images.githubusercontent.com/107246410/175970429-015f66c8-a4f2-4c8e-b346-a69630fdddb3.png">
+
+
 
 ## 실행화면
 
