@@ -22,5 +22,6 @@ Show your talent
 ![main](https://user-images.githubusercontent.com/107246410/175967953-3b7168d4-7717-482a-b2fb-febffef9b1f4.png)
 
 **[티처블 머신을 통한 얼굴인식]**
+
 <img width="428" alt="스크린샷 2022-06-27 오후 11 50 55" src="https://user-images.githubusercontent.com/107246410/175969834-4485e4cd-2839-4647-9a72-dce10a51d001.png">
 
