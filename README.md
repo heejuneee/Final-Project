@@ -10,4 +10,5 @@ Show your talent
 ## Skills
 > Nodejs , Javascript , HTML CSS , Mysql
 
-![image](https://github.com/heejuneee/Final-Project/issues/1#issue-1285912933](https://user-images.githubusercontent.com/107246410/175968655-ded83b1d-c6d1-4f87-9769-1984d37ae7cc.png)
+**[메인 페이지]**
+![main]([https://user-images.githubusercontent.com/84673536/174640967-f3184a8a-bf50-46c5-b6ef-2d524ef47d67.png](https://user-images.githubusercontent.com/107246410/175968655-ded83b1d-c6d1-4f87-9769-1984d37ae7cc.png))
