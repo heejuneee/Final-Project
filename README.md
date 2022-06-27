@@ -33,7 +33,7 @@ Show your talent
 <img width="306" alt="스크린샷 2022-06-27 오후 11 59 52" src="https://user-images.githubusercontent.com/107246410/175972241-43c206d8-68f6-44a8-b4dd-f853eca141bc.png">
 
 
-## Nodemailer를 통해 메일 전송하는 코드
+## Nodemailer를 통해 메일 전송코드
 ```js
 async function main() {
 	
@@ -83,4 +83,41 @@ async function main() {
 
 main().catch( console.error );
 
+```
+##웹 크롤링
+```js
 
+const axios = require("axios");
+const cheerio = require("cheerio");
+const log = console.log;
+
+const getHtml = async () => {
+  try {
+    return await axios.get("https://www.auditionhub.me/ko/");
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+getHtml()
+  .then(html => {
+    let ulList = [];
+    const $ = cheerio.load(html.data);
+    const $bodyList = $("div.headline-list ul").children("li.section02");
+
+    $bodyList.each(function(i, elem) {
+      ulList[i] = {
+          title: $(this).find('strong.news-tl a').text(),
+          url: $(this).find('strong.news-tl a').attr('href'),
+          image_url: $(this).find('p.poto a img').attr('src'),
+          image_alt: $(this).find('p.poto a img').attr('alt'),
+          summary: $(this).find('p.lead').text().slice(0, -11),
+          date: $(this).find('span.p-time').text()
+      };
+    });
+
+    const data = ulList.filter(n => n.title);
+    return data;
+  })
+  .then(res => log(res));
+```
