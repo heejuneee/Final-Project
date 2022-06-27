@@ -11,4 +11,5 @@ Show your talent
 > Nodejs , Javascript , HTML CSS , Mysql
 
 **[메인 페이지]**
-![main](https://user-images.githubusercontent.com/84673536/174640967-f3184a8a-bf50-46c5-b6ef-2d524ef47d67.png)
+
+![main](https://user-images.githubusercontent.com/107246410/175967953-3b7168d4-7717-482a-b2fb-febffef9b1f4.png)
