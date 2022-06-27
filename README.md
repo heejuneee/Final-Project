@@ -10,6 +10,13 @@ Show your talent
 ## Skills
 > Nodejs , Javascript , HTML CSS , Mysql
 
+
+## 실행화면
+
 **[메인 페이지]**
 
 ![main](https://user-images.githubusercontent.com/107246410/175967953-3b7168d4-7717-482a-b2fb-febffef9b1f4.png)
+
+**[티처블 머신을 통한 얼굴인식]**
+
+![teachable macine](https://user-images.githubusercontent.com/107246410/175969834-4485e4cd-2839-4647-9a72-dce10a51d001.png)
