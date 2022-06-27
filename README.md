@@ -26,11 +26,12 @@ Show your talent
 
 ## 실행화면
 
-**[메인 페이지]**
+<img width="702" alt="스크린샷 2022-06-27 오후 11 59 27" src="https://user-images.githubusercontent.com/107246410/175971967-c23003c9-2cc7-4a7f-a60a-3454a4b09115.png">
 
-![main](https://user-images.githubusercontent.com/107246410/175967953-3b7168d4-7717-482a-b2fb-febffef9b1f4.png)
+<img width="702" alt="스크린샷 2022-06-27 오후 11 59 38" src="https://user-images.githubusercontent.com/107246410/175972128-57bbc500-911c-4aeb-9215-d7cea7bcc457.png">
 
-**[티처블 머신을 통한 얼굴인식]**
+<img width="306" alt="스크린샷 2022-06-27 오후 11 59 52" src="https://user-images.githubusercontent.com/107246410/175972241-43c206d8-68f6-44a8-b4dd-f853eca141bc.png">
 
-<img width="428" alt="스크린샷 2022-06-27 오후 11 50 55" src="https://user-images.githubusercontent.com/107246410/175969834-4485e4cd-2839-4647-9a72-dce10a51d001.png">
+
+
 
