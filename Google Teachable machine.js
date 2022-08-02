@@ -42,13 +42,13 @@
 </html>
 
 
- <div class="fileContainer">
-                <div class="fileInput">
-                    <p>FILE NAME: </p>
-                    <p id="fileName"></p>
-                </div>
-                <div class="buttonContainer">
-                    <div class="submitButton" id="submitButton">SUBMIT</div>
-                </div>
-            </div>
-        </div>
+//  <div class="fileContainer">
+//                 <div class="fileInput">
+//                     <p>FILE NAME: </p>
+//                     <p id="fileName"></p>
+//                 </div>
+//                 <div class="buttonContainer">
+//                     <div class="submitButton" id="submitButton">SUBMIT</div>
+//                 </div>
+//             </div>
+//         </div>
