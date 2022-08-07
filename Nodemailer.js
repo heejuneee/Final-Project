@@ -42,6 +42,6 @@ sync function main() {
 }
 
 
-// @breif main() 함수를 실행
+// // @breif main() 함수를 실행
 
-main().catch( console.error );
+// main().catch( console.error );
