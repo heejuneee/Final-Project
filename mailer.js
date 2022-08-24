@@ -61,30 +61,30 @@ async function main() {
 
 
 
-// @breif main() 함수를 실행
+// // @breif main() 함수를 실행
 
-main().catch( console.error );
-const express = require('express');
+// main().catch( console.error );
+// const express = require('express');
 
-const { isLoggedIn } = require('./middlewares');
-const User = require('../models/user');
+// const { isLoggedIn } = require('./middlewares');
+// const User = require('../models/user');
 
-const router = express.Router();
+// const router = express.Router();
 
-router.post('/:id/follow', isLoggedIn, async (req, res, next) => {
-  try {
-    const user = await User.findOne({ where: { id: req.user.id } });
-    if (user) {
-      await user.addFollowing(parseInt(req.params.id, 10));
-      res.send('success');
-    } else {
-      res.status(404).send('no user');
-    }
-  } catch (error) {
-    console.error(error);
-    next(error);
-  }
-});
+// router.post('/:id/follow', isLoggedIn, async (req, res, next) => {
+//   try {
+//     const user = await User.findOne({ where: { id: req.user.id } });
+//     if (user) {
+//       await user.addFollowing(parseInt(req.params.id, 10));
+//       res.send('success');
+//     } else {
+//       res.status(404).send('no user');
+//     }
+//   } catch (error) {
+//     console.error(error);
+//     next(error);
+//   }
+// });
 
-module.exports = router;
+// module.exports = router;
 
